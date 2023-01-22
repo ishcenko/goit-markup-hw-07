@@ -1037,6 +1037,14 @@ img {
     cursor: pointer;    
 }
 
+.button-sub:hover {
+    background-color: var(--color-avtive);
+}
+
+.button-sub:focus {
+    background-color: var(--color-avtive);
+}
+
 .icon-sub {
     fill: var(--white-color);
 }
