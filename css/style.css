@@ -1060,3 +1060,15 @@ img {
     letter-spacing: 0.04em;
     padding-right: 16px;   
 }
+/* Медіа запити */
+/* .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+@media screen and (min-width: 480px) {
+    body {
+        width: 480px;
+    }   
+}
