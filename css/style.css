@@ -1061,14 +1061,68 @@ img {
     padding-right: 16px;   
 }
 /* Медіа запити */
-/* .container {
+.container {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-@media screen and (min-width: 480px) {
-    body {
-        width: 480px;
-    }   
+}
+/* MOBILE */
+@media screen and (max-width: 480px) {
+    .nav-items {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+    .navigation {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .menu-hamburger {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+}
+
+
+
+
+
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 766px;
+    } 
+    .menu-hamburger {
+        display: none;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 769px) {
+    .container {
+        width: 1158px;
+    }
+    .menu-hamburger {
+        display: none;
+    }
 }
