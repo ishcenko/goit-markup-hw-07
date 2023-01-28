@@ -31,6 +31,7 @@ ul {
 }
 
 .container {
+    /* width: 428px; */
     /* width: 1158px; */
     margin: 0 auto;
     padding-left: 15px;
@@ -542,7 +543,8 @@ img {
 }
 
 .heading-item {
-    width: 264px;
+    /* width: 264px; */
+    width: 100%;
 }   
 
 .heading-icon {

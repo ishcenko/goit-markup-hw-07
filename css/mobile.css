@@ -1,4 +1,8 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    .container {
+        width: 428px;
+    }
+    /* section-heading  */
     .heading-icon {
         display: none;
     }
@@ -8,6 +12,11 @@
         gap: 72px;
         margin-top: 96px;
         margin-bottom: 96px;
-        
+    }
+    .heading {
+        text-align: center;
+    }
+    .subtitle {
+        justify-content: space-between;
     }
 }
