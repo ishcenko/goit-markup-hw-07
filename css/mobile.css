@@ -69,11 +69,33 @@
     }
     .modal-nav-item {
        margin-top: 80px;
+       justify-content: space-between;
         
     }
     .nav-link {
         display: block;
         gap: 40px;
+    }
+    .contact-menu {
+        display: block;
+        gap: 40px;
+    }
+    .icons-soc-menu {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+
+    }
+    .icon-item-soc-menu {
+        /* display: flex; */
+    }
+    .icon-btn-soc-menu {
+        /* display: flex; */
+        border-radius: 50%;
+        border: none;
+        background-color: var(--primary-brand);
+        width: 40px;
+        height: 40px;
     }
 }
 
