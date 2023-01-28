@@ -81,6 +81,11 @@
         flex-direction: column;
         justify-content: space-between;
     } */
+    .content-modal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     .contact-menu {
         display: flex;
         flex-direction: column;
@@ -130,6 +135,14 @@
         display: flex;
         flex-direction: column;
 
+    }
+    .section-title {
+        width: 428px;
+        height: 432px;
+        background-image: linear-gradient(to right,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/image-title-2x.jpg);
     }
 }
 
