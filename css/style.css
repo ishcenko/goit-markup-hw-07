@@ -236,7 +236,6 @@ img {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
-    cursor: pointer;
     /* повільний перехід */
     transition-property: background;
     transition-duration: var(--time-animation);
@@ -496,7 +495,6 @@ img {
     border-radius: 4px;
     padding: 16px 32px;
     border: none;
-    cursor: pointer;
     transition-property: background, box-shadow, border-radius;
     transition-duration: 250ms;
     transition-timing-function: var(--hov-foc-cubic);
@@ -798,7 +796,7 @@ img {
 .set-card {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 21px;
+    column-gap: 24px;
     row-gap: 48px;
 }
 
@@ -1033,16 +1031,7 @@ img {
     margin-left: 16px;
     background-color: var(--primary-brand);
     border-radius: 4px;
-    border: none;
-    cursor: pointer;    
-}
-
-.button-sub:hover {
-    background-color: var(--color-avtive);
-}
-
-.button-sub:focus {
-    background-color: var(--color-avtive);
+    border: none;    
 }
 
 .icon-sub {
@@ -1060,4 +1049,3 @@ img {
     letter-spacing: 0.04em;
     padding-right: 16px;   
 }
-
