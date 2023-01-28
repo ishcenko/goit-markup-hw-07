@@ -7,6 +7,9 @@
     <title>WebStudio</title>
         <link rel="stylesheet" href="./css/modern-normalize.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/tablet.css">
+        <link rel="stylesheet" href="./css/desktop.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -21,7 +24,7 @@
                 <li><a class="nav-link" href="#">Contacts</a></li>
             </ul>
             </nav>
-            <button type="button" class="menu-hamburger">
+            <button type="button" class="menu-hamburger" js-open-menu>
                 <svg class="icon-hamburger" width="32" height="22">
                     <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
                 </svg>
@@ -33,11 +36,16 @@
         </div>
         <!-- Модалка для хедера -->
         <div class="modal-header">
-            <button class="modal-mobile-close">
+            <button class="modal-mobile-close" js-close-menu>
                 <svg class="icon-close-btn"  width="8" height="8">
                     <use href="./images/symbol-defs.svg#icon-close-black"></use>
                 </svg>
             </button>
+            <ul class="modal-nav-item">
+                <li><a class="nav-link current" href="./index.html">Studio</a></li>
+                <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="nav-link" href="#">Contacts</a></li>
+            </ul>
         </div>
     </header>
     <!-- основний контент -->
@@ -441,7 +449,7 @@
             </div> -->
         
     <!-- <script src="./js/modal.js"></script> -->
-    <!-- <script src="./js/mobile-menu.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
     <!-- <script>
         (() => {
             document

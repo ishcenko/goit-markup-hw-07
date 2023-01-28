@@ -1,0 +1,13 @@
+@media screen and (min-width: 769px) {
+    .container {
+        width: 1158px;
+    }
+
+    .menu-hamburger {
+        display: none;
+    }
+
+    .modal-header {
+        display: none;
+    }
+}
