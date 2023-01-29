@@ -1,7 +1,42 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
     .container {
         width: 428px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
+
+    /* header */
+        .navigation {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+    .nav-contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-link, .contacts-item {
+        display: none;
+    }
+    .nav-item-link {
+        display: flex;
+    }
+    .menu-hamburger {
+        /* margin-right: auto; */
+        /* display: flex; */
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        /* також можна через
+        line-height: 0;*/
+        height: 22px;
+    }
+    .icon-hamburger {
+        fill: var(--dark);
+    }
+    
     /* section-heading  */
     .heading-icon {
         display: none;
@@ -19,4 +54,17 @@
     .subtitle {
         justify-content: space-between;
     }
+}
+
+/* section-our */
+.subject-our-title {
+}
+.subject-our {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    width: 264px;
+    /* height: 428px; */
+
 }

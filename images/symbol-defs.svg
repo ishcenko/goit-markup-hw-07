@@ -79,5 +79,8 @@
     <symbol id="icon-telegram" viewBox="0 0 32 32">
       <path d="M32.006 2.667l-32.006 15.003 10.229 3.157 15.776-12.325-12 13.491 0.009 0.004-0.012-0.004v7.347l5.736-5.577 7.268 2.243 5-23.338z"></path>
     </symbol>
+    <symbol id="icon-menu-hamburger" viewBox="0 0 32 22">
+      <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
   </defs>
 </svg>

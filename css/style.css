@@ -69,7 +69,7 @@ img {
 
 .nav-contact {
     display: flex;
-    margin-bottom: 3px;
+    /* margin-bottom: 3px; */
 
 }
 
@@ -81,7 +81,7 @@ img {
     width: 115px;
     height: 24px;
     display: flex;
-    margin-right: 77px;
+    /* margin-right: 77px; */
 }
 
 .logo-web {
@@ -606,7 +606,7 @@ img {
 
 .section-our {
     background: #F4F4FD;
-    padding-top: 120px;
+    padding-top: 96px;
     padding-bottom: 120px;
 }
 
