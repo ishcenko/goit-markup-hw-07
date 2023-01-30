@@ -1,70 +1,179 @@
-@media screen and (max-width: 767px) {
-    .container {
-        width: 428px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    /* header */
-        .navigation {
-            padding-top: 24px;
-            padding-bottom: 24px;
-        }
-    .nav-contact {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .nav-link, .contacts-item {
+.conteiner {
+    width: 428px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+.conteiner {
+    width: 100%;
+}
+.nav-contact {
+    display: flex;
+    justify-content: space-between;
+}
+    .nav-items {
         display: none;
+    }
+    .navigation {
+        /* display: flex; */
+        /* justify-content: space-between; */
     }
     .nav-item-link {
         display: flex;
     }
+    .logo {
+        margin-right: auto;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .navigation {
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
     .menu-hamburger {
         /* margin-right: auto; */
-        /* display: flex; */
         border: none;
         background-color: transparent;
-        padding: 0;
-        /* також можна через
-        line-height: 0;*/
-        height: 22px;
     }
-    .icon-hamburger {
-        fill: var(--dark);
-    }
-    
-    /* section-heading  */
     .heading-icon {
         display: none;
     }
     .section-heading {
+        padding-top: 72px;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 72px;
+        padding-top: 96px;
+            padding-bottom: 96px;
+    }
+    .heading{
+        display: block;
+        align-items: center;
+        font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+        color: #2E2F42;
+        margin-bottom: 8px;
+    }
+
+    .subtitle{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+    .section-our {
         display: flex;
         flex-direction: column;
-        gap: 72px;
-        margin-top: 96px;
-        margin-bottom: 96px;
+        justify-content: center;
+        gap: 7px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
-    .heading {
-        text-align: center;
+    .subject-img {
+        
+        width: 260px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 72px;
+
+
     }
-    .subtitle {
+    .icons-soc {
+        padding-right: 14px;
+        padding-left: 14px;
         justify-content: space-between;
     }
+    .customers-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
+@media screen and (min-width: 480px) {
+    .conteiner {
+        width: 428px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+        .nav-item-link {
+            display: flex;
+            justify-content: space-between;
+        }
+    .nav-contact {
+        max-width: 767px;
+    }
+    .nav-items {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+        .menu-hamburger {
+            border: none;
+            background-color: transparent;
+        }
+        .heading-icon {
+            display: none;
+        }
+                .section-heading {
+                    padding-top: 72px;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 72px;
+                    padding-top: 96px;
+                    padding-bottom: 96px;
+                }
+    .heading {
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 8px;
+            font-weight: 700;
+                font-size: 36px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+                color: #2E2F42;
+    }
+    .subject-our {
+        width: 428px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 72px;
+            margin-left: auto;
+                margin-right: auto;
 
-/* section-our */
-.subject-our-title {
-}
-.subject-our {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    width: 264px;
-    /* height: 428px; */
+    }
+    .card-our {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .subject-img {
+        width: 260px;
+        /* justify-content: center; */
+    }
+    .img-item {
 
+    }
 }
