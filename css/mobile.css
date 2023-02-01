@@ -93,6 +93,11 @@
     .contact {
         display: none;
     }
+        .title {
+            width: 350px;
+            margin-right: 0 auto;
+            margin-left: 0 auto;
+        }
     .section-subject {
         display: none;
     }
