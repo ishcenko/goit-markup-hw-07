@@ -1,4 +1,4 @@
-.conteiner {
+.container {
     max-width: 428px;
     padding-right: 16px;
     padding-left: 16px;
@@ -11,6 +11,7 @@
             width: 428px;
         }
     .navigation {
+        
         padding-top: 24px;
         padding-bottom: 24px;
         /* display: flex; */
@@ -19,8 +20,9 @@
     .open-menu {
         position: absolute;
         content: "";
-        top: 24px;
+        top: 0;
         right: 16px;
+        padding: 0;
     }
     .btn-menu {
         background-color: transparent;
@@ -49,6 +51,10 @@
     
 }
 
+.conteiner {
+    width: 428px;
+
+}
 @media screen and (min-width: 480px) and (max-width: 767px) {
     
     .navigation {
@@ -58,14 +64,17 @@
             /* justify-content: space-between; */
         }
     .open-menu {
-            position: absolute;
-            content: "";
-            top: 24px;
-            right: 16px;
+
+                    position: absolute;
+                    content: "";
+                    top: 24px;
+                    right: 16px;
+                    transform: translateY(-85%);
         }
     .btn-menu {
             background-color: transparent;
             border: none;
+            padding: 0;
             fill: var(--dark);
         }
                 .heading-icon {
@@ -86,5 +95,8 @@
     .customers-card {
         align-items: center;
         justify-content: center;
+    }
+    .button-sub {
+
     }
 }

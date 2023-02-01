@@ -60,6 +60,7 @@ img {
 /* header */
 
 .navigation {
+    /* position: relative; */
     /* display: flex; */
     /* height: 72px; */
     /* align-items: center; */
@@ -75,6 +76,10 @@ img {
 }
 
 .nav-item-link {
+    position: relative;
+    content: "";
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
