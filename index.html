@@ -7,6 +7,9 @@
     <title>WebStudio</title>
         <link rel="stylesheet" href="./css/modern-normalize.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+        <link rel="stylesheet" href="./css/tablet.css">
+        <link rel="stylesheet" href="./css/desktop.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +18,16 @@
         <div class="container nav-contact">
             <nav class="nav-item-link">
                 <a class="logo" href="#"><span class="logo-web">Web</span><span class="logo-stydio">Studio</span></a>
-            <ul class="nav-items">
+            
+            <div class="open-menu">
+                <button class="btn-menu" type="button" class="menu-hamburger" js-open-menu>
+                <svg class="icon-hamburger" width="32" height="22">
+                    <use href="./images/symbol-defs.svg#icon-menu-hamburger"></use>
+                </svg>
+            </button>
+            </div>
+        
+                <ul class="nav-items">
                 <li><a class="nav-link current" href="./index.html">Studio</a></li>
                 <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                 <li><a class="nav-link" href="#">Contacts</a></li>
@@ -27,15 +39,16 @@
         </ul>
         </div>
         
+        
     </header>
     <!-- основний контент -->
     <main>
-        <section class="section-title">
+        <!-- <section class="section-title">
             <div class="container main-section">
                 <h1 class="title">Effective Solutions for Your Business</h1>
                 <button class="button" data-modal-open type="button">Order Service</button>
             </div>
-        </section>
+        </section> -->
         <section class="section-heading">
             <div class="container">
                 <h2 hidden class="visually-hidden"></h2>
@@ -89,7 +102,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section-subject">
+        <!-- <section class="section-subject">
             <div class="container">
                     <h2 class="subject">What are we doing</h2>
                 <ul class="subject-list">
@@ -104,7 +117,7 @@
                     </li>
                 </ul>
             </div>
-            </section>
+            </section> -->
         <section class="section-our">
             <div class="container conteiner-our">
                 <h2 class="subject-our-title">Our Team</h2>
@@ -311,7 +324,7 @@
         </section>
             </main>
     <!-- підвал -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container container-footer">
             <div class="cont-ftr">
                 <a class="ftr-link" href="#"> <span class="footer-web">Web</span><span class="footer-studio">Studio</span> </a>
@@ -349,15 +362,15 @@
                             </a>
                         </li>
                     </ul>
-        </div>
+        </div> -->
         <!-- Форма для підписки -->
-        <div class="ftr-form">
+        <!-- <div class="ftr-form">
             <p class="ftr-subscribe">Subscribe</p>
             <div class="form-sub">
                 <input class="input-mail inpyt-mail" type="email" name="email" id="mail-sub" placeholder="E-mail">
-                
+                 -->
                     <!-- <input class="input-mail" type="email" name="email" id="mail-sub" placeholder="E-mail"> -->
-                <button class="button-sub" type="submit"><span class="btn-sub">Subscribe</span>
+                <!-- <button class="button-sub" type="submit"><span class="btn-sub">Subscribe</span>
                     <svg class="icon-sub" width="24" height="24">
                         <use href="./images/symbol-defs.svg#icon-telegram"></use>
                     </svg>
@@ -366,13 +379,13 @@
         </div>
         
         </div>
-    </footer>
+    </footer> -->
     
             <!-- модалка -->
-            <div class="backdrop is-hidden" data-modal data-backdrop>
-                <div class="modal">
+            <!-- <div class="backdrop is-hidden" data-modal data-backdrop>
+                <div class="modal"> -->
                     <!-- Form -->
-                    <form class="form-modal">
+                    <!-- <form class="form-modal">
                         <p class="form-title">Leave your contacts and we will call you back</p>
                         <label class="form-label">
                             <span class="span-name">Name</span>
@@ -418,18 +431,18 @@
                             <button class="btn-send" type="submit">Send</button>
                         </div>
 
-                    </form>
+                    </form> -->
                     <!-- Закриття модалки -->
-                    <button class="btn-close" data-modal-close>
+                    <!-- <button class="btn-close" data-modal-close>
                         <svg class="icon-close-btn"  width="8" height="8">
                             <use href="./images/symbol-defs.svg#icon-close-black"></use>
                         </svg>
                     </button>
                 </div>
-            </div>
+            </div> -->
         
-    <script src="./js/modal.js"></script>
-    <script>
+    <!-- <script src="./js/modal.js"></script> -->
+    <!-- <script>
         (() => {
             document
             .querySelector('.js-speaker-form')
@@ -441,5 +454,5 @@
                 );
             });
         })();
-    </script>
+    </script> -->
 </body>
