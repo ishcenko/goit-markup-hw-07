@@ -541,7 +541,7 @@ img {
 .section-heading {
     display: flex;
     flex-direction: column;
-    /* gap: 72px; */
+    gap: 40px;
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 60px;
