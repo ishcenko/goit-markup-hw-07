@@ -32,7 +32,9 @@
         top: 40px;
         right: 40px;
     }
-
+    .container-menu {
+    padding-top: 80px;
+}
     .is-hidden {
         opacity: 1;
         pointer-events: none;
