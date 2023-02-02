@@ -1,0 +1,38 @@
+
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+    width: 1158px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+        .logo {
+            line-height: 1.33;
+        }
+        .btn-menu {
+            display: none;
+        }
+        header>.container {
+            padding-bottom: 27px;
+            width: 1158px;
+        }
+    .nav-items {
+        padding-left: 76px;
+    }
+    .contact {
+        line-height: 1.5;
+        font-size: 16px;
+        letter-spacing: 0.02em;   
+    }
+        .contact {
+            display: flex;
+            gap: 40px;
+        }
+        .contacts-item.nav-mail {
+            padding-bottom: 0;
+        }
+        .nav-items .nav-link.current::after {
+            transform: translateY(700%);
+        }
+}
