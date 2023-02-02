@@ -51,6 +51,12 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--dark);
+        transition-property: color;
+        transition-duration: var(--time-animation);
+        transition-timing-function: var(--hov-foc-cubic);
+    }
+    .nav-link-menu:focus {
+        color: var(--color-avtive);
     }
     .nav-link-menu-cont {
         font-weight: 700;
