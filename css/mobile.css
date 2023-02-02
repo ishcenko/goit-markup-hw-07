@@ -29,8 +29,18 @@
         z-index: 11px;
         margin: 0 auto;
     }
+    .close-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: var(--accent);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
     .close-button.menu {
-        margin-bottom: 16px;
+        margin-bottom: 55px;
         margin-left: auto;
     }
     .menu-items,
@@ -93,7 +103,7 @@
     }
     
     .is-hidden {
-        opacity: 0;
+        opacity: 1;
         pointer-events: none;
     }
 }
