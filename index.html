@@ -38,126 +38,6 @@
             <li><a class="contacts-item nav-tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
         </ul>
         </div>
-
-         
-         <!-- <div class="mob-menu-wrap" data-menu>
-      <div class="mob-menu">
-        <div class="mob-menu-top">
-          <button class="close-button menu" type="button" data-menu-close>
-            <svg  width="8px" heigth="8px" class="close-button-icon"> 
-                <use href="./images/symbol-defs.svg#icon-close-black"></use> 
-            </svg> 
-         </button>
-        <ul class="menu-items list">
-          <li class="menu-item">
-            <a class="menu-item-link link " href="./index.html"> Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-item-link link" href="./portfolio.html"> Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-item-link link" href=""> Contacts </a></li>
-        </ul>
-      </div>
-      <div class="mob-menu-bottom"> 
-        <ul class="menu-contacts list">
-          <li class="contacts-phone">
-            <a class="phone-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-          <li >
-            <a class="contacts-email" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
-          </li>
-          </ul>
-
-          <ul class="list social-media-menu">
-            <li class="social-media-item">
-              <a href="" class="media-button">
-                <svg width="16px" height="16px">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a href="" class="media-button">
-                <svg width="16px" height="16px">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a href="" class="media-button">
-                <svg width="16px" height="16px">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-media-item">
-              <a href="" class="media-button">
-                <svg width="16px" height="16px">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-    </div>
-</div> -->
-        <!-- <div class="modal-header" js-menu-container>
-            <button class="modal-mobile-close" js-close-menu>
-                <svg class="icon-close-btn"  width="8" height="8">
-                    <use href="./images/symbol-defs.svg#icon-close-black"></use>
-                </svg>
-            </button>
-            <div class="content-modal">
-            <div class="conteiner-items container-menu">
-                <ul class="modal-nav-item">
-                    <li><a class="nav-link" href="./index.html">Studio</a></li>
-                    <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="nav-link" href="#">Contacts</a></li>
-                </ul>
-           </div>
-            <div class="conteiner-contact">
-                <ul class="contact-menu">
-                    <li><a class="contacts-menu-item nav-tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
-                    <li><a class="contacts-menu-mail-item nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-
-            </ul>
-            <ul class="icons-soc-menu">
-                        <li class="icon-item-soc-menu">
-                            <button class="icon-btn-soc-menu" type="button">
-                                 <svg class="soc-item-menu" width="16" height="16">
-                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                                </svg>
-                            </button>
-                        </li>
-                        <li class="icon-item-soc-menu">
-                            <button class="icon-btn-soc-menu" type="button">
-                                <svg class="soc-item-menu" width="16" height="16">
-                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                                </svg>
-                            </button>
-                        </li>
-                        <li class="icon-item-soc-menu">
-                            <button class="icon-btn-soc-menu" type="button">
-                                <svg class="soc-item-menu" width="16" height="16">
-                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                                </svg>
-                            </button>
-                        </li>
-                        <li class="icon-item-soc-menu">
-                            <button class="icon-btn-soc-menu" type="button">
-                                <svg class="soc-item-menu" width="16" height="16">
-                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                                </svg>
-                            </button>
-                        </li>
-                    </ul>
-            </div>
-        </div>
-        </div> -->
-        
     </header>
 
     <!-- основний контент -->
@@ -226,13 +106,18 @@
                     <h2 class="subject">What are we doing</h2>
                 <ul class="subject-list">
                     <li class="subject-img">
-                        <img src="./images/monitor.jpg" alt="Monitor" width="360">
+                        <img srcset="./images/monitor.jpg 1x, ./images/monitor@2x.jpg 2x"
+                        src="./images/monitor.jpg" alt="Monitor" width="360">
                     </li>
                     <li class="subject-img">
-                        <img src="./images/phone.jpg" alt="Phone" width="360">
+                        <img 
+                        srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x"
+                        src="./images/phone.jpg" alt="Phone" width="360">
                     </li>
                     <li class="subject-img">
-                        <img src="./images/phone-in-hand.jpg" alt="Phone in hand" width="360">
+                        <img
+                        srcset="./images/phone-in-hand.jpg 1x, ./images/phone-in-hand@2x.jpg" 
+                        src="./images/phone-in-hand.jpg" alt="Phone in hand" width="360">
                     </li>
                 </ul>
             </div>
@@ -242,7 +127,7 @@
                 <h2 class="subject-our-title">Our Team</h2>
             <ul class="subject-our">
                 <li class="subject-img card-our">
-                    <img class="img-item" src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264">
+                    <img class="img-item" srcset="./images/mark-guerrero.jpg 1x. ./images/mark-guerrero@2x.jpg 2x" src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264">
                     <div class="card-our-title">
                         <h3 class="item">Mark Guerrero</h3>
                         <p class="text-item-our">Product Designer</p>
@@ -279,7 +164,7 @@
                     </ul>
                 </li>
                 <li class="subject-img card-our">
-                    <img class="img-item" src="./images/tom-ford.jpg" alt="Tom Ford" width="264">
+                    <img class="img-item" srcset="./images/tom-ford.jpg 1x. ./images/tom-ford@2x.jpg 2x" src="./images/tom-ford.jpg" alt="Tom Ford" width="264">
                     <div class="card-our-title">
                         <h3 class="item">Tom Ford</h3>
                         <p class="text-item-our">Frontend Developer</p>
@@ -316,7 +201,7 @@
                     </ul>
                 </li>
                 <li class="subject-img card-our">
-                    <img class="img-item" src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264">
+                    <img class="img-item" srcset="./images/camila-garcia.jpg 1x, ./images/camila-garcia@2x.jpg 2x" src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264">
                     <div class="card-our-title">
                         <h3 class="item">Camila Garcia</h3>
                     <p class="text-item-our">Marketing</p>
@@ -353,7 +238,7 @@
                     </ul>
                 </li>
                 <li class="subject-img card-our">
-                    <img class="img-item" src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264">
+                    <img class="img-item" srcset="./images/daniel-wilson.jpg 1x, ./images/daniel-wilson@2x.jpg 2x" src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264">
                     <div class="card-our-title">
                         <h3 class="item">Daniel Wilson</h3>
                         <p class="text-item-our">UI Designer</p>
@@ -619,5 +504,5 @@
         </div>
 
         <script src="./js/mobile-menu.js"></script>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
 </body>
