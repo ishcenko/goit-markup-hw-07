@@ -52,6 +52,9 @@
         text-transform: capitalize;
         color: var(--dark);
     }
+    .nav-link-menu:focus, .nav-link-menu:hover {
+        color: var(--color-avtive);
+    }
     .nav-link-menu-cont {
         font-weight: 700;
         font-size: 36px;
@@ -86,6 +89,7 @@
             letter-spacing: 0.02em;
             color: var(--text);
             margin-bottom: 48px;
+            min-width: 100%;
     }
     .icons-soc-menu {
         display: flex;
