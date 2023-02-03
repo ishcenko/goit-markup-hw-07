@@ -20,6 +20,9 @@
     .logo {
         margin-right: 120px;
     }
+    .contacts-item {
+        margin-right: 0;
+    }
     .nav-contact {
         display: flex;
         align-items: start;
