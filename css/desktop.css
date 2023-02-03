@@ -6,8 +6,103 @@
     width: 1158px;
     padding-right: 16px;
     padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .contact {
+        display: flex;
+        gap: 40px;
+    }
+    .navigation {
+        align-items: center;
+    }
+    .nav-contact {
+        padding-bottom: 24px;
+    }
+    .logo {
+        /* margin-bottom: 24px; */
+    }
+    .nav-item-link {
+        /* margin-bottom: 24px; */
+    }
+    .section-title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/image-title.jpg);
+    }
+        
+        
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-index {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/image-title@2x.jpg);
+            }
+        }
+.heading-icon {
+    display: flex;
 }
-        .logo {
+.heading {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+}
+.subtitle {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+        .section-heading-menu {
+            display: flex;
+            gap: 23px;
+            margin-top: 8px;
+            padding-top: 0;
+
+        }
+    .heading-item {
+            display: block;
+            width: 264px;
+    }
+    .section-subject {
+        display: block;
+    }
+    .section-customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .customers-card {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .subject-our {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+
+
+
+
+
+
+    .cont-ftr {
+        margin-right: 120px;
+    }
+    .soc-med-ftr {
+        margin-right: 80px;
+    }
+
+
+
+
+
+
+        /* .logo {
             line-height: 1.33;
         }
         .btn-menu {
@@ -34,5 +129,5 @@
         }
         .nav-items .nav-link.current::after {
             transform: translateY(700%);
-        }
+        } */
 }
