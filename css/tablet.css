@@ -33,6 +33,9 @@
         display: block;
         margin-left: auto;
     }
+    .title {
+        width: 360px;
+    }
     .heading-icon {
         display: none;
     } 
@@ -43,6 +46,10 @@
         flex-wrap: wrap;
         /* row-gap: 24px; */
         row-gap:72px;
+    }
+    .heading {
+        text-align: left;
+        font-weight: 700;
     }
     .heading-item {
         width: calc((100% - 40px) / 2);
