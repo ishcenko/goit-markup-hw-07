@@ -29,11 +29,9 @@
         display: block;
         margin-left: auto;
     }
-    .section-heading {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 72px;
-        text-align: left;
+    .section-heading-menu {
+        width: calc((100% - 30px) / 2);
+            
     }
     .heading-icon {
         display: none;
