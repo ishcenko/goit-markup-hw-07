@@ -32,11 +32,11 @@ ul {
 }
 
 .container {
-    width: 428px;
+    /* width: 428px; */
     /* width: 1158px; */
     /* margin: 0 auto; */
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 p,
