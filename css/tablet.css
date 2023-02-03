@@ -40,28 +40,40 @@
     
     .section-heading-menu {
         flex-direction: row;
+        flex-wrap: wrap;
+        /* row-gap: 24px; */
+        row-gap:72px;
     }
     .heading-item {
-        width: calc((100% - 30px) / 2);
+        width: calc((100% - 40px) / 2);
     }
  
     .section-subject {
         display: none;
     }
-    /* .subject-our {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        row-gap: 25px;
-    } */
+        .subject-our {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            row-gap: 25px;
+    }
     .customers-card {
         width: 552px;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
 }
-    .customers-items {
-        width: calc((100% - 32px) / 3);
+.subject-img {
+    width: calc((100% - 24px) / 2);
+}
+
+
+
+
+
+
+.customers-items {
+    width: calc((100% - 32px) / 3);
 }
 .container-footer {
     display: flex;
