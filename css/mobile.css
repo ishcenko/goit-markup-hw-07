@@ -1,13 +1,14 @@
-.container {
+
+
+/* modal-header */
+@media screen and (max-width: 767px) {
+    .container {
     max-width: 428px;
     padding-right: 16px;
     padding-left: 16px;
     margin-right: auto;
     margin-left: auto;
 }
-
-/* modal-header */
-@media screen and (max-width: 767px) {
     .modal-header {
         position: fixed;
         content: "";

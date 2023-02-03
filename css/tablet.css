@@ -1,11 +1,12 @@
-.container {
+
+    @media screen and (min-width: 768px) {
+        .container {
         min-width: 768px;
         padding-right: 16px;
         padding-left: 16px;
         margin-right: auto;
         margin-left: auto;
     }
-    @media screen and (min-width: 768px) {
     
     .navigation {
         /* height: 70px; */
