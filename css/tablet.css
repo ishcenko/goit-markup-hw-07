@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .navigation {
+        height: 70px;
+    }
+    .open-menu {
+        display: none;
+    }
+    .nav-items {
+        display: flex;
+        gap: 40px;
+        margin-right: auto;
+    }
+    .logo {
+        margin-right: 120px;
+    }
+    .nav-contact {
+        display: flex;
+        align-items: start;
+        margin-top: 24px;
+    }
+    .contact {
+        display: block;
+        margin-left: auto;
+    }
+ 
+    
+
+
+
+}
+
+
+
+
+
+
