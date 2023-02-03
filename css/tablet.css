@@ -38,7 +38,12 @@
     .heading-icon {
         display: none;
     }
-    
+        .subject-our {
+            display: flex;
+        }
+        .subject-img {
+            width: calc((100% -35px) / 2);
+        }
     .heading-item {
         width: calc((100% - 24px) / 2);
     }
@@ -46,12 +51,12 @@
     .section-subject {
         display: none;
     }
-    .subject-our {
+    /* .subject-our {
         display: flex;
         flex-direction: column;
         gap: 40px;
         row-gap: 25px;
-    }
+    } */
     .customers-card {
         width: 552px;
         align-items: center;
