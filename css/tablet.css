@@ -33,18 +33,15 @@
         margin-left: auto;
     }
     .section-heading-menu {
-        width: calc((100% - 30px) / 2);
+        /* width: calc((100% - 30px) / 2); */
             
     }
     .heading-icon {
         display: none;
+    }  
+    .section-heading-menu {
+        flex-direction: row;
     }
-        .subject-our {
-            display: flex;
-        }
-        .subject-img {
-            width: calc((100% -35px) / 2);
-        }
     .heading-item {
         width: calc((100% - 24px) / 2);
     }

@@ -82,9 +82,10 @@
         color: var(--primary-brand);
         
     }
-    .icon-hamburger {
+    .menu-hamburger {
         border: none;
         padding: 0;
+        background-color: transparent;
     }
     /* .modal-nav-item {
         margin-bottom: 250px;
