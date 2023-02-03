@@ -81,8 +81,8 @@
     .customers-card {
         width: 552px;
         align-items: center;
-        margin-left: 108px;
-        margin-right: 108px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .subject-img {
     width: calc((100% - 24px) / 2);
