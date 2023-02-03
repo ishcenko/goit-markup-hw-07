@@ -33,13 +33,11 @@
         display: block;
         margin-left: auto;
     }
-    .section-heading-menu {
-        /* width: calc((100% - 30px) / 2); */
-            
-    }
     .heading-icon {
         display: none;
-    }  
+    } 
+    
+    
     .section-heading-menu {
         flex-direction: row;
     }
