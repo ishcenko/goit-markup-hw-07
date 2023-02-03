@@ -82,6 +82,10 @@
         color: var(--primary-brand);
         
     }
+    .icon-hamburger {
+        border: none;
+        padding: 0;
+    }
     /* .modal-nav-item {
         margin-bottom: 250px;
     } */
@@ -116,7 +120,10 @@
         /* justify-content: space-between; */
     }
 
-
+.icon-hamburger {
+    border: none;
+    padding: 0;
+}
     
     .open-menu {
         position: absolute;
