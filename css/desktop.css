@@ -30,15 +30,21 @@
             font-size: 56px;
             line-height: 1.1;
             width: 497px;
-            padding-top: 120px;
+            
     }
 
     .section-title {
-        padding-bottom: 120px;
+        padding-top: 187px;
+        padding-bottom: 187px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/image-title.jpg);
     }
+        .main-section {
+            /* text-align: center; */
+            padding-top: 0;
+            padding-bottom: 0;
+        }
         
         
         @media (min-device-pixel-ratio: 2),
