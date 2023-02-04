@@ -1,7 +1,7 @@
 
 
 /* modal-header */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     .container {
     max-width: 428px;
     padding-right: 16px;
@@ -109,11 +109,11 @@
     }
     
 }
-.conteiner {
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .conteiner {
             max-width: 428px;
         }
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    
     .navigation {
         
         padding-top: 24px;
@@ -171,7 +171,7 @@
         width: 428px;
 
     }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     
     .navigation {
         padding-top: 24px;
@@ -222,7 +222,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
     .section-title {
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
@@ -230,7 +230,7 @@
             url("../images/image-title.jpg");
     }
 }
-@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2),
+@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .section-title {
