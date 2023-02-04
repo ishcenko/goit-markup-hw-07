@@ -1,7 +1,7 @@
 
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
         .container {
-        max-width: 768px;
+        min-width: 768px;
         padding-right: 16px;
         padding-left: 16px;
         margin-right: auto;
@@ -123,7 +123,7 @@
 }
 .form-sub {
     display: flex;
-    /* flex-direction: inherit; */
+    flex-direction: inherit;
 }
 .ftr-subscribe {
     text-align: left;
@@ -133,13 +133,6 @@
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .container {
-            max-width: 768px;
-            padding-right: 16px;
-            padding-left: 16px;
-            margin-right: auto;
-            margin-left: auto;
-        }
     .hero-index {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
