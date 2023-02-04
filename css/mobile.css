@@ -224,8 +224,8 @@
 
 @media screen and (max-width: 480px) {
     .section-title {
-            padding-top: 187px;
-                padding-bottom: 187px;
+            padding-top: 112px;
+                padding-bottom: 112px;
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),

@@ -1,5 +1,5 @@
 
-    @media screen and (min-width: 768px) {
+    @media screen and (max-width: 768px) {
         .container {
         min-width: 768px;
         padding-right: 16px;
@@ -8,6 +8,7 @@
         margin-left: auto;
     }
     
+        
     .navigation {
         /* height: 70px; */
     }
@@ -34,13 +35,20 @@
         display: block;
         margin-left: auto;
     }
+        .section-title {
+            padding-top: 112px;
+            padding-bottom: 112px;
+        }
     .title {
         width: 360px;
     }
-    .heading-icon {
+        .item-picture {
         display: none;
     } 
-    
+    .section-heading {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     
     .section-heading-menu {
         flex-direction: row;
@@ -121,7 +129,11 @@
 .ftr-tabl-form {
     display: block;
 }
+.inpyt-mail {
+    width: 264px;
+}
 .form-sub {
+    gap: 24px;
     display: flex;
     flex-direction: inherit;
 }
