@@ -167,12 +167,12 @@
     
 }
 
+    
+@media screen and (max-width: 480px) {
     .conteiner {
-        width: 428px;
+        max-width: 428px;
 
     }
-@media screen and (max-width: 480px) {
-    
     .navigation {
         padding-top: 24px;
         padding-bottom: 24px;

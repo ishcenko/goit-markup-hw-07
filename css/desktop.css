@@ -13,6 +13,9 @@
         display: flex;
         gap: 40px;
     }
+    .open-menu {
+        display: none;
+    }
     .navigation {
         align-items: center;
     }
