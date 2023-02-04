@@ -223,6 +223,13 @@
 }
 
 @media screen and (max-width: 480px) {
+    .container {
+            max-width: 428px;
+            padding-right: 16px;
+            padding-left: 16px;
+            margin-right: auto;
+            margin-left: auto;
+        }
     .section-title {
             padding-top: 112px;
                 padding-bottom: 112px;
@@ -235,7 +242,15 @@
 @media screen and (max-width: 480px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
+    .container {
+            max-width: 428px;
+            padding-right: 16px;
+            padding-left: 16px;
+            margin-right: auto;
+            margin-left: auto;
+        }
     .section-title {
+        
         background-image: linear-gradient(to right,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
