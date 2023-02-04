@@ -137,6 +137,9 @@ border-bottom: 1px solid #E7E9FC;
 .nav-tel:focus {
     color: var(--primary-brand);
 }
+.contacts-item {
+    display: none;
+}
 .nav-item-link {
     display: flex;
 }
