@@ -229,8 +229,8 @@ img {
 
 .main-section {
     text-align: center;
-    padding-top: 112px;
-    padding-bottom: 112px;
+    /* padding-top: 112px; */
+    /* padding-bottom: 112px; */
 }
 
 .title {
