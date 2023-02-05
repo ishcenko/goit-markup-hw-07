@@ -1,0 +1,141 @@
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+    .section-customers > .container {
+        width: 582px;
+    }
+    .contact {
+        display: flex;
+    }
+    .footer>.container {
+        width: 582px;
+    }
+    .navigation {
+        padding-bottom: 10px;
+    }
+    .logo {
+        margin-right: 123px;
+    }
+    .nav-items {
+        display: flex;
+        margin-left: auto;
+        gap: 40px;
+    }
+    .nav-items .nav-link.current::after {
+        bottom: -10px;
+    }
+    .menu-hamburger {
+        display: none;
+    }
+    .nav-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+        .container>.contact {
+            flex-direction: column;
+            gap: 4px;
+        }
+        .nav-mail {
+        font-size: 12px;
+            line-height: 1.33;
+            letter-spacing: 0.04em;
+            color: #434455;
+        }
+        .nav-tel {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        color: #434455;
+        margin-bottom: 0px;
+    }
+    .nav-link:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+
+    .section-title {
+        padding-bottom: 108px;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-bg-tablet.jpg);
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .section-title {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/hero-bg-tablet-2x.jpg);
+            }
+        }
+        .button {
+            margin-top: 40px;
+        }
+        .title {
+            font-size: 56px;
+                line-height: 1.07;
+                width: 496px;
+        }
+        .section-heading-menu {
+            display: flex;
+                flex-wrap: wrap;
+                column-gap: 24px;
+                row-gap: 72px;
+        }
+        .heading {
+            text-align: start;
+        }
+.subtitle {
+    margin-bottom: 0;
+}
+
+.heading-item {
+    width: calc((100% - 30px) / 2);
+}
+.section-our {
+    padding-bottom: 104px;
+}
+.section-our > .container {
+    width: 582px;
+}
+.subject-our {
+    gap: 64px;
+        column-gap: 24px;
+}
+.customers-items {
+    width: calc((100% - 60px) / 3);
+}
+.ftr-tabl {
+    margin-right: 24px;
+        margin-bottom: 72px;
+}
+
+.ftr-link {
+    text-align: start;
+}
+.footer-txt {
+    margin-left: 0;
+    width: 264px;
+}
+.soc-med-ftr {
+    margin-top: 0;
+        margin-bottom: 0;
+        text-align: start;
+}
+.ftr-subscribe {
+    text-align: start;
+}
+.form-sub {
+    display: flex;
+}
+input-mail {
+    width: 264px;
+        margin-right: 24px;
+}
+.modal {
+    max-width: 408px;
+}
+
+}
