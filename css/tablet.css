@@ -5,6 +5,9 @@
     .section-customers > .container {
         width: 582px;
     }
+        .contacts-item {
+            display: block;
+        }
     .contact {
         display: flex;
     }
@@ -13,6 +16,9 @@
     }
     .navigation {
         padding-bottom: 10px;
+    }
+    .contact-cont-mailtel {
+        display: block;
     }
     .logo {
         margin-right: 123px;
