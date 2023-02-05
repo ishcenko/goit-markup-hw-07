@@ -11,6 +11,11 @@
 .linku-nav .nav-link.current::after {
     bottom: -28px;
 }
+.container>.contact {
+        display: flex;
+            flex-direction: inherit;
+            gap: 40px;
+}
 .container > contacts-item {
     flex-direction: row;
     gap: 40px;

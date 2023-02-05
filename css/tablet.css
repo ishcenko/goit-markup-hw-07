@@ -29,7 +29,7 @@
         gap: 40px;
     }
     .nav-items .nav-link.current::after {
-        bottom: -10px;
+        bottom: -25px;
     }
     .menu-hamburger {
         display: none;
