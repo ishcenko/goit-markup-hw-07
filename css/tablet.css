@@ -113,6 +113,10 @@
 .customers-items {
     width: calc((100% - 60px) / 3);
 }
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
 .ftr-tabl {
     margin-right: 24px;
         margin-bottom: 72px;
@@ -135,10 +139,11 @@
 }
 .form-sub {
     display: flex;
+    gap: 24px;
 }
-input-mail {
+.input-mail {
     width: 264px;
-        margin-right: 24px;
+    /* margin-right: 24px; */
 }
 .modal {
     max-width: 408px;
